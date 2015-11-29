@@ -34,8 +34,7 @@ if ($securimage->check($captcha) == false) {
 }
 	
 // Create the email and send the message
-//$to = 'gmoreasjr@gmail.com';
-$to = 'healingsocks@mailinator.com';
+$to = 'gmoreasjr@gmail.com';
 $email_subject = "Healing Socks Contact Form:  $name";
 $email_body = "New message from Healing Socks contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@healingsocks.org\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
