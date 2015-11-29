@@ -81,9 +81,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Thank you for visiting</div>
                 <div class="intro-heading">Helping the needy get socks</div>
-                <form name="sentMessage" id="donate_form" novalidate>
-                  <button type="submit" class="btn btn-xl">Donate</button>
-                </form>
+                <button type="submit" id="middle_donate" class="btn btn-xl">Donate</button>
             </div>
         </div>
     </header>
